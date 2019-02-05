@@ -19,6 +19,6 @@ class String
     #   string.empty?
     # end
     #   return new_array.length
-    self.split(/\.|\?|\!/).delete_if do |word| word.size < 2.size
+    self.split(/\.|\?|\!/).delete_if do |word| word.size < 2.size end
   end
 end
